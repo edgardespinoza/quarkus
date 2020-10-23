@@ -1,0 +1,14 @@
+quarkus:
+   #change banner
+   banner:
+      path: banner.txt
+   http:
+      #enabled cors domain
+      cors: true
+      port: 8080
+   #zip response  
+   resteasy:
+      gzip:
+         enabled: true
+         max-input: 1024M
+ 
