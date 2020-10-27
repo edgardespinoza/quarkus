@@ -1,4 +1,4 @@
-package org.acme.getting.started;
+package id.kaytrust.signature;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

@@ -1,7 +1,9 @@
 quarkus:
    #change banner
    banner:
-      path: banner.txt
+      path: banner.txt   
+   swagger-ui:
+      always-include: true
    http:
       #enabled cors domain
       cors: true
